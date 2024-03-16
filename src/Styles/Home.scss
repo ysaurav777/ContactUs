@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main {
+    margin: 2rem 5rem;
+    >h1 {
+        font-family: 'Roboto',sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    >p {
+        font-family: 'Roboto',sans-serif;
+    }
+
+    >div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >div {
+            >div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                >button {
+                    color: black;
+                    background-color: white;
+                    padding: 0.6rem 8rem;
+                    margin: 0.8rem 1rem;
+                    border-radius: 0.3rem;
+                    font-weight: bold;
+                    min-width: 32rem;
+                    justify-content: center;
+                    display: flex;
+                    gap: 0.5rem;
+                }
+            }
+
+            > form {
+                margin: 0 1rem;
+                >div {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: end;
+                    >input {
+                        margin: 0.5rem 0;
+                        min-width: 28rem;
+                        min-height: 2rem;
+                    }
+                    >textarea {
+                        margin: 0.5rem 0;
+                        min-width: 28rem;
+                        min-height: 8rem;
+                    }
+                }
+            }
+        }
+        > div {
+            >img {
+                width: 29rem;
+                margin: 0 5rem;
+            }
+        }
+    }
+}
+
+.btnsub {
+    color: white;
+    background-color: black;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    min-width: 12rem;
+    font-weight: bold;
+}
+
+.iconsbtn {
+    display: flex;
+    >button {
+        color: white;
+        background-color: black;
+        padding: 0.6rem 1rem;
+        margin: 0 1rem;
+        border-radius: 0.3rem;
+        min-width: 15rem;
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        font-weight: bold;
+    }
+}
